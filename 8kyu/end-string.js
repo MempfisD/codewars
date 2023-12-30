@@ -9,7 +9,7 @@
 // "Hi! Hi!" ---> "Hi! Hi"
 // "Hi"      ---> "Hi"
 
-// Sollution:
+// Solution:
 function remove(string) {
 	if (string.endsWith('!')) {
 		return string.slice(0, -1);
