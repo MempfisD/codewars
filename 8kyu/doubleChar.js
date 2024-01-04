@@ -8,8 +8,9 @@
 
 // Solution:
 let str = 'Hello World';
+
 function doubleChar(str) {
-	return str.replace(/./g, c => c+c);
+	return str.replace(/./g, c => c + c);
 }
 
 console.log(doubleChar(str));

@@ -16,4 +16,5 @@ function remove(string) {
 	}
 	return string;
 }
+
 console.log(remove('Hi!!!'));
